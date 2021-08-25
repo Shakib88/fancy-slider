@@ -1,0 +1,31 @@
+body{
+    background: #EDD263;
+    margin: 0;
+    padding: 0;
+}
+
+.custom-container{
+    display: grid;
+    grid-template-columns: repeat(4,  1fr);
+    grid-gap: 20px;
+}
+.custom-container img{
+    width: 200px;
+}
+.dynamic-container{
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    background: #F8F9FA;
+}
+
+.custom-parent img{
+    width: 250px;
+}
+.dynamic-parent{
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    background: #F8F9FA;
+
+}
